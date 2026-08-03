@@ -1,3 +1,9 @@
-# End-to-End Snowflake Sales ELT Pipeline with Amazon S3 and Power BI
+# End-to-End Snowflake Sales ELT Pipeline with Amazon S3, Streams, Tasks & Power BI
 
-This project demonstrates the design and implementation of a production-style ELT pipeline using Snowflake, Amazon S3, and Power BI. The solution follows the Medallion Architecture (Bronze → Silver → Gold) and leverages Snowflake Streams, Stored Procedures, and Task Chaining to automate incremental data processing from Amazon S3 through to a dimensional model for business reporting. The final reporting layer is connected directly to Power BI, providing interactive dashboards and business insights.
+### Overview
+
+This project demonstrates the implementation of a modern ELT (Extract, Load, Transform) pipeline using Snowflake as the cloud data warehouse, Amazon S3 as the data source, and Power BI as the reporting platform.
+
+The pipeline follows the Medallion Architecture (Bronze → Silver → Gold), enabling scalable, incremental, and automated data processing using Snowflake Streams, Stored Procedures, and Task Chaining.
+
+This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate scheduled batch ingestion and orchestration.
