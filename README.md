@@ -10,3 +10,7 @@ This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate sc
 
 ### Project Architecture
 ![Snowflake ELT Architecture](architecture/Snowflake_Architecture.png)
+
+### Technology
+| Component | Technology |
+|-----------|------------|
