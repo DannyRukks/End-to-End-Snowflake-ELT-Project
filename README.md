@@ -7,3 +7,5 @@ This project demonstrates the implementation of a modern ELT (Extract, Load, Tra
 The pipeline follows the Medallion Architecture (Bronze → Silver → Gold), enabling scalable, incremental, and automated data processing using Snowflake Streams, Stored Procedures, and Task Chaining.
 
 This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate scheduled batch ingestion and orchestration.
+
+### Project Architecture
