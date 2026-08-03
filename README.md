@@ -158,7 +158,7 @@ The project uses Snowflake Streams to capture only newly inserted or changed rec
 ### Workflow Orchestration
 The pipeline is fully automated using chained Snowflake Tasks. Each task executes only after its predecessor completes successfully.
 The SYSTEM$STREAM_HAS_DATA() function ensures downstream tasks run only when new data is available.
-![Snowflake ELT Architecture](Task_Screenshot/taskRESULT.jpeg)
+![Snowflake ELT Architecture](Task_Screenshot/taskRESULT.jpg)
 
 
 ### Power BI Dashboard
