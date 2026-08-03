@@ -1,0 +1,501 @@
+Order_id,customer_name,order_date,delivery_date,item_type,quantity,Order_Status,Shipping_Method,Unit_Price,Region,Discount
+1,Customer_1,12/23/2024,12/30/2024,Food,54,Delivered,Standard,17.89,South,0.05
+2,Customer_47,4/1/2024,4/12/2024,Books,95,Pending,Pickup,23.67,North,0.05
+3,Customer_5,5/3/2024,5/9/2024,Food,90,Shipped,Standard,17.41,South,0.2
+4,Customer_40,10/5/2024,10/14/2024,Books,90,Shipped,Standard,26.45,Central,0
+5,Customer_38,6/12/2024,6/22/2024,Furniture,93,Delivered,Pickup,247.27,West,0.2
+6,Customer_12,10/6/2024,10/17/2024,Books,30,Delivered,Express,22.76,North,0.15
+7,Customer_40,12/26/2024,1/3/2025,Books,80,Delivered,Pickup,29.68,South,0.2
+8,Customer_48,4/26/2024,5/6/2024,Books,21,Pending,Express,29.49,North,0.1
+9,Customer_36,2/2/2024,2/7/2024,Food,90,Delivered,Standard,16.95,South,0
+10,Customer_32,10/30/2024,11/3/2024,Food,48,Pending,Same Day,12.55,East,0.2
+11,Customer_12,1/7/2024,1/11/2024,Furniture,47,Shipped,Pickup,265.45,East,0
+12,Customer_46,2/4/2024,2/13/2024,Books,49,Delivered,Same Day,26.39,West,0
+13,Customer_11,4/23/2024,5/7/2024,Electronics,18,Pending,Express,594.22,Central,0.2
+14,Customer_38,5/6/2024,5/7/2024,Electronics,16,Shipped,Pickup,410.12,North,0.2
+15,Customer_44,2/9/2024,2/13/2024,Electronics,99,Delivered,Same Day,466.7,Central,0.05
+16,Customer_48,3/2/2024,3/9/2024,Clothing,25,Delivered,Same Day,47.82,South,0.2
+17,Customer_14,1/24/2024,1/28/2024,Books,20,Shipped,Pickup,27.87,West,0.2
+18,Customer_12,2/17/2024,2/28/2024,Food,82,Delivered,Same Day,13.23,East,0.05
+19,Customer_39,3/15/2024,3/20/2024,Furniture,17,Delivered,Pickup,339.58,East,0.05
+20,Customer_21,1/7/2024,1/10/2024,Food,83,Pending,Same Day,15.33,West,0.1
+21,Customer_37,9/28/2024,10/9/2024,Food,27,Delivered,Standard,15.52,North,0.2
+22,Customer_17,8/21/2024,8/26/2024,Furniture,74,Delivered,Pickup,337.57,Central,0.15
+23,Customer_2,7/1/2024,7/6/2024,Electronics,63,Delivered,Standard,446.6,South,0
+24,Customer_15,3/21/2024,3/24/2024,Furniture,7,Shipped,Standard,332.92,Central,0.05
+25,Customer_41,9/25/2024,10/3/2024,Food,40,Cancelled,Same Day,16.73,East,0.2
+26,Customer_28,3/20/2024,3/21/2024,Food,51,Delivered,Express,15.58,West,0.15
+27,Customer_13,6/27/2024,7/6/2024,Electronics,35,Pending,Standard,455.45,East,0
+28,Customer_5,2/1/2024,2/13/2024,Books,54,Pending,Standard,29.84,East,0.2
+29,Customer_3,8/7/2024,8/13/2024,Clothing,66,Delivered,Standard,47.8,South,0.15
+30,Customer_30,3/4/2024,3/16/2024,Furniture,20,Delivered,Express,304.83,North,0
+31,Customer_1,3/31/2024,4/14/2024,Electronics,89,Delivered,Express,559.7,North,0.15
+32,Customer_6,3/2/2024,3/16/2024,Furniture,58,Delivered,Standard,253.19,South,0.05
+33,Customer_34,2/15/2024,2/26/2024,Books,69,Delivered,Express,28.66,West,0.2
+34,Customer_11,7/26/2024,8/5/2024,Electronics,24,Cancelled,Express,426.36,Central,0.15
+35,Customer_26,11/28/2024,12/1/2024,Books,96,Delivered,Express,23.58,West,0.15
+36,Customer_37,9/15/2024,9/28/2024,Clothing,16,Delivered,Pickup,44.61,Central,0.2
+37,Customer_16,9/13/2024,9/25/2024,Electronics,2,Delivered,Standard,517.77,North,0
+38,Customer_40,7/15/2024,7/26/2024,Clothing,15,Delivered,Express,32.25,East,0.2
+39,Customer_3,7/20/2024,7/28/2024,Furniture,66,Delivered,Pickup,271.84,East,0.15
+40,Customer_14,7/2/2024,7/7/2024,Clothing,73,Delivered,Same Day,34.03,West,0.1
+41,Customer_27,11/19/2024,12/2/2024,Food,37,Delivered,Same Day,14.53,South,0
+42,Customer_37,10/31/2024,11/9/2024,Clothing,8,Pending,Express,33.82,Central,0.15
+43,Customer_47,5/28/2024,6/11/2024,Food,77,Shipped,Standard,12.38,East,0.1
+44,Customer_17,3/15/2024,3/19/2024,Electronics,65,Shipped,Express,489.66,West,0
+45,Customer_21,2/7/2024,2/9/2024,Food,48,Pending,Same Day,14.17,South,0.05
+46,Customer_15,10/20/2024,10/30/2024,Clothing,58,Shipped,Standard,41.5,North,0.2
+47,Customer_39,6/29/2024,7/13/2024,Books,6,Shipped,Standard,24.52,South,0
+48,Customer_2,11/6/2024,11/20/2024,Clothing,45,Shipped,Same Day,35.54,North,0
+49,Customer_27,9/5/2024,9/6/2024,Books,79,Delivered,Pickup,26.15,West,0.15
+50,Customer_3,5/25/2024,6/2/2024,Electronics,52,Delivered,Pickup,545.45,South,0.1
+51,Customer_11,3/28/2024,3/31/2024,Electronics,88,Delivered,Express,581.75,West,0
+52,Customer_23,1/22/2024,1/27/2024,Food,41,Shipped,Standard,15.95,North,0.2
+53,Customer_9,8/20/2024,8/27/2024,Furniture,76,Shipped,Express,276.2,East,0
+54,Customer_4,11/28/2024,12/8/2024,Furniture,94,Delivered,Standard,317.2,East,0
+55,Customer_4,3/5/2024,3/13/2024,Electronics,71,Delivered,Same Day,406.23,North,0.15
+56,Customer_45,3/22/2024,3/23/2024,Books,90,Delivered,Standard,29.99,Central,0
+57,Customer_20,3/17/2024,3/21/2024,Clothing,87,Shipped,Standard,45.56,Central,0.1
+58,Customer_22,3/12/2024,3/20/2024,Electronics,46,Delivered,Same Day,485.25,East,0.15
+59,Customer_37,11/11/2024,11/13/2024,Books,98,Shipped,Pickup,21.08,East,0.05
+60,Customer_16,8/24/2024,8/28/2024,Clothing,83,Delivered,Same Day,43.4,South,0.05
+61,Customer_3,2/19/2024,2/25/2024,Clothing,19,Cancelled,Standard,39.1,South,0.15
+62,Customer_45,1/8/2024,1/12/2024,Furniture,91,Delivered,Same Day,347.91,East,0.1
+63,Customer_41,8/27/2024,9/2/2024,Furniture,68,Delivered,Standard,278.65,Central,0.15
+64,Customer_15,8/16/2024,8/29/2024,Books,65,Delivered,Pickup,21.48,South,0.15
+65,Customer_46,1/7/2024,1/8/2024,Electronics,57,Delivered,Pickup,425.24,North,0.15
+66,Customer_42,6/14/2024,6/27/2024,Food,16,Delivered,Standard,15.75,South,0.15
+67,Customer_18,8/22/2024,9/2/2024,Electronics,75,Shipped,Pickup,517.07,South,0
+68,Customer_1,1/17/2024,1/26/2024,Books,29,Pending,Same Day,27.12,South,0.2
+69,Customer_33,2/6/2024,2/10/2024,Clothing,61,Delivered,Pickup,38.09,West,0.05
+70,Customer_21,8/27/2024,9/5/2024,Food,58,Shipped,Express,15.58,North,0.1
+71,Customer_50,4/5/2024,4/13/2024,Electronics,54,Shipped,Pickup,458.98,East,0
+72,Customer_26,4/9/2024,4/18/2024,Furniture,20,Delivered,Express,300.67,Central,0.05
+73,Customer_36,11/28/2024,12/2/2024,Food,11,Delivered,Same Day,14.58,Central,0.2
+74,Customer_37,12/27/2024,12/28/2024,Clothing,84,Delivered,Pickup,44.69,East,0.15
+75,Customer_15,3/13/2024,3/20/2024,Clothing,51,Delivered,Pickup,33.83,West,0.2
+76,Customer_43,7/31/2024,8/4/2024,Food,52,Delivered,Pickup,15.93,Central,0.05
+77,Customer_4,5/22/2024,6/1/2024,Food,61,Delivered,Same Day,17.27,South,0.05
+78,Customer_8,4/1/2024,4/14/2024,Electronics,17,Delivered,Same Day,510.27,Central,0
+79,Customer_28,7/27/2024,7/29/2024,Electronics,19,Shipped,Express,573.1,North,0
+80,Customer_35,7/3/2024,7/9/2024,Electronics,69,Shipped,Standard,486.01,North,0.1
+81,Customer_20,3/3/2024,3/13/2024,Clothing,95,Delivered,Same Day,46.21,East,0.15
+82,Customer_1,9/12/2024,9/23/2024,Books,73,Shipped,Pickup,24.14,West,0.2
+83,Customer_13,7/6/2024,7/7/2024,Clothing,60,Delivered,Express,45.24,West,0.15
+84,Customer_27,6/18/2024,6/29/2024,Clothing,14,Delivered,Pickup,38.38,Central,0.2
+85,Customer_8,9/14/2024,9/28/2024,Food,88,Delivered,Pickup,16.38,West,0.15
+86,Customer_43,8/9/2024,8/20/2024,Food,23,Shipped,Same Day,13.88,West,0.05
+87,Customer_12,8/21/2024,8/28/2024,Food,38,Cancelled,Standard,13.88,Central,0.05
+88,Customer_48,5/27/2024,6/4/2024,Clothing,62,Delivered,Pickup,36.08,North,0.15
+89,Customer_50,5/19/2024,6/2/2024,Books,93,Pending,Same Day,29.54,South,0.1
+90,Customer_5,9/10/2024,9/20/2024,Books,37,Pending,Express,26.87,East,0.05
+91,Customer_38,1/19/2024,1/28/2024,Electronics,65,Shipped,Pickup,494.85,North,0.1
+92,Customer_3,7/10/2024,7/11/2024,Books,13,Delivered,Express,20.91,West,0.05
+93,Customer_5,7/3/2024,7/7/2024,Furniture,77,Delivered,Same Day,250.24,West,0
+94,Customer_12,1/17/2024,1/29/2024,Furniture,50,Delivered,Same Day,291.83,Central,0
+95,Customer_49,9/16/2024,9/19/2024,Clothing,59,Pending,Same Day,43.91,East,0.15
+96,Customer_10,11/20/2024,12/1/2024,Food,27,Delivered,Same Day,14.24,South,0.2
+97,Customer_35,8/3/2024,8/5/2024,Electronics,80,Cancelled,Same Day,426.02,Central,0
+98,Customer_40,9/20/2024,10/2/2024,Furniture,6,Delivered,Standard,247.2,Central,0.05
+99,Customer_8,6/15/2024,6/27/2024,Clothing,15,Cancelled,Express,47.31,South,0.05
+100,Customer_20,1/30/2024,2/5/2024,Furniture,77,Delivered,Standard,307.4,South,0
+101,Customer_37,12/9/2024,12/12/2024,Food,50,Pending,Express,16.02,West,0
+102,Customer_20,2/15/2024,2/18/2024,Food,15,Delivered,Pickup,14.46,Central,0.2
+103,Customer_37,7/15/2024,7/24/2024,Furniture,16,Delivered,Pickup,344.83,North,0
+104,Customer_45,4/11/2024,4/16/2024,Books,67,Delivered,Express,29.41,North,0.15
+105,Customer_46,5/8/2024,5/14/2024,Clothing,67,Shipped,Pickup,38.77,Central,0.2
+106,Customer_42,7/27/2024,8/4/2024,Books,40,Delivered,Pickup,29.16,South,0
+107,Customer_36,4/28/2024,5/9/2024,Clothing,28,Shipped,Pickup,32.82,East,0.05
+108,Customer_35,4/8/2024,4/19/2024,Books,50,Delivered,Standard,22.88,South,0
+109,Customer_29,10/17/2024,10/26/2024,Food,65,Delivered,Standard,13.87,South,0.15
+110,Customer_45,7/26/2024,8/9/2024,Furniture,28,Cancelled,Same Day,252.43,East,0.15
+111,Customer_23,2/25/2024,2/26/2024,Electronics,22,Delivered,Express,501.48,South,0.05
+112,Customer_20,7/1/2024,7/4/2024,Furniture,53,Shipped,Pickup,258.57,East,0.2
+113,Customer_13,6/1/2024,6/3/2024,Books,7,Delivered,Express,24.82,Central,0.05
+114,Customer_38,8/28/2024,9/2/2024,Books,10,Shipped,Same Day,28.47,East,0
+115,Customer_4,12/1/2024,12/7/2024,Electronics,11,Delivered,Same Day,470.02,North,0.05
+116,Customer_31,8/27/2024,9/3/2024,Food,29,Delivered,Pickup,15.34,East,0.2
+117,Customer_33,7/31/2024,8/10/2024,Furniture,75,Shipped,Same Day,253.79,South,0.1
+118,Customer_39,3/29/2024,4/11/2024,Clothing,26,Delivered,Pickup,36.46,Central,0.05
+119,Customer_8,2/29/2024,3/6/2024,Clothing,86,Delivered,Same Day,35.62,East,0.2
+120,Customer_17,7/24/2024,8/1/2024,Furniture,28,Shipped,Same Day,291.49,South,0.1
+121,Customer_33,7/25/2024,7/28/2024,Food,86,Delivered,Pickup,15.37,East,0.2
+122,Customer_40,2/25/2024,2/27/2024,Clothing,40,Delivered,Same Day,44.28,Central,0.2
+123,Customer_11,6/30/2024,7/8/2024,Food,46,Delivered,Same Day,15.73,Central,0.1
+124,Customer_11,8/30/2024,9/6/2024,Books,37,Delivered,Same Day,26.75,North,0.05
+125,Customer_30,12/12/2024,12/19/2024,Electronics,11,Pending,Express,511.35,Central,0.1
+126,Customer_49,11/23/2024,11/28/2024,Clothing,90,Delivered,Standard,41.74,South,0.05
+127,Customer_26,9/26/2024,10/6/2024,Books,29,Pending,Express,26.58,Central,0.2
+128,Customer_48,11/21/2024,11/30/2024,Clothing,58,Delivered,Same Day,43.1,Central,0.05
+129,Customer_49,1/24/2024,1/25/2024,Clothing,100,Delivered,Standard,32.46,South,0.15
+130,Customer_2,3/31/2024,4/12/2024,Food,43,Delivered,Express,13.64,South,0.1
+131,Customer_26,12/21/2024,12/31/2024,Food,76,Delivered,Express,16.57,Central,0.1
+132,Customer_44,6/24/2024,7/4/2024,Furniture,53,Pending,Express,350.58,Central,0
+133,Customer_40,9/26/2024,9/30/2024,Electronics,46,Delivered,Pickup,470.2,East,0.2
+134,Customer_3,6/25/2024,7/9/2024,Furniture,91,Delivered,Same Day,261.77,Central,0.2
+135,Customer_31,12/30/2024,1/6/2025,Electronics,62,Pending,Same Day,428.65,North,0.05
+136,Customer_40,5/20/2024,5/25/2024,Books,3,Delivered,Standard,26.57,North,0.15
+137,Customer_48,12/11/2024,12/23/2024,Clothing,5,Pending,Express,33.11,North,0.2
+138,Customer_47,5/19/2024,5/22/2024,Books,38,Delivered,Same Day,27.41,North,0.15
+139,Customer_34,5/27/2024,6/5/2024,Food,95,Delivered,Express,17.83,Central,0
+140,Customer_42,5/21/2024,5/26/2024,Electronics,48,Shipped,Same Day,418.35,East,0.1
+141,Customer_6,5/25/2024,6/1/2024,Books,34,Delivered,Express,25.3,South,0.15
+142,Customer_37,10/26/2024,10/29/2024,Furniture,34,Delivered,Same Day,285.14,Central,0.2
+143,Customer_4,9/8/2024,9/10/2024,Electronics,76,Shipped,Standard,490.73,West,0.1
+144,Customer_29,12/16/2024,12/28/2024,Electronics,1,Delivered,Express,431.48,Central,0.15
+145,Customer_34,7/10/2024,7/20/2024,Food,79,Delivered,Same Day,13.87,North,0.15
+146,Customer_11,6/20/2024,6/28/2024,Food,21,Shipped,Standard,13.95,West,0.05
+147,Customer_19,11/6/2024,11/11/2024,Books,80,Delivered,Standard,29.41,Central,0.1
+148,Customer_26,2/16/2024,2/20/2024,Furniture,76,Delivered,Same Day,311.55,East,0.15
+149,Customer_12,8/10/2024,8/15/2024,Books,38,Shipped,Express,28.83,East,0.05
+150,Customer_30,10/26/2024,11/9/2024,Clothing,32,Delivered,Pickup,34.49,West,0.2
+151,Customer_38,3/3/2024,3/9/2024,Books,76,Cancelled,Standard,27.54,South,0.15
+152,Customer_20,3/3/2024,3/7/2024,Electronics,91,Delivered,Standard,409.95,West,0.05
+153,Customer_20,1/25/2024,2/7/2024,Books,39,Delivered,Same Day,20.82,East,0.05
+154,Customer_34,2/29/2024,3/7/2024,Electronics,93,Delivered,Pickup,488.62,West,0.1
+155,Customer_12,2/2/2024,2/10/2024,Books,26,Shipped,Pickup,24.24,North,0.05
+156,Customer_38,1/13/2024,1/26/2024,Books,15,Shipped,Pickup,26.07,North,0.15
+157,Customer_21,1/18/2024,1/28/2024,Furniture,30,Delivered,Same Day,289.7,South,0
+158,Customer_5,3/30/2024,4/13/2024,Food,68,Delivered,Express,13.29,West,0.2
+159,Customer_3,7/14/2024,7/16/2024,Furniture,64,Shipped,Standard,301.48,West,0.15
+160,Customer_3,6/18/2024,7/2/2024,Books,57,Shipped,Same Day,23.45,West,0.15
+161,Customer_26,4/1/2024,4/6/2024,Clothing,74,Pending,Pickup,33.77,West,0.2
+162,Customer_31,4/4/2024,4/15/2024,Clothing,87,Delivered,Standard,42.85,South,0.2
+163,Customer_36,5/18/2024,5/28/2024,Furniture,13,Shipped,Standard,311.18,East,0.05
+164,Customer_30,9/22/2024,9/23/2024,Electronics,64,Delivered,Pickup,505.39,Central,0.15
+165,Customer_4,3/5/2024,3/6/2024,Books,88,Delivered,Pickup,23.08,South,0.05
+166,Customer_38,1/9/2024,1/18/2024,Electronics,42,Pending,Standard,444.1,East,0.1
+167,Customer_15,7/5/2024,7/9/2024,Books,96,Shipped,Standard,29.84,East,0.05
+168,Customer_25,12/24/2024,1/7/2025,Food,1,Delivered,Express,12.33,East,0.1
+169,Customer_47,2/29/2024,3/13/2024,Food,47,Shipped,Express,13.23,West,0
+170,Customer_33,3/13/2024,3/25/2024,Books,25,Shipped,Same Day,29.45,South,0.15
+171,Customer_10,2/25/2024,3/1/2024,Food,78,Delivered,Standard,16.6,East,0.1
+172,Customer_42,8/17/2024,8/25/2024,Food,26,Delivered,Express,16.58,Central,0
+173,Customer_2,6/29/2024,7/5/2024,Books,79,Delivered,Standard,22.89,Central,0.2
+174,Customer_44,8/15/2024,8/23/2024,Food,77,Delivered,Pickup,12.72,North,0.05
+175,Customer_3,10/14/2024,10/16/2024,Clothing,97,Delivered,Express,39.96,East,0
+176,Customer_41,2/22/2024,2/29/2024,Clothing,94,Shipped,Pickup,38.89,South,0.1
+177,Customer_15,10/22/2024,11/4/2024,Furniture,36,Pending,Pickup,255.5,West,0.15
+178,Customer_41,9/27/2024,9/29/2024,Furniture,95,Delivered,Pickup,303.91,North,0.2
+179,Customer_29,8/15/2024,8/21/2024,Food,18,Delivered,Same Day,13.38,East,0.2
+180,Customer_17,4/27/2024,5/4/2024,Electronics,74,Delivered,Pickup,511.74,West,0
+181,Customer_2,7/20/2024,7/24/2024,Furniture,11,Delivered,Same Day,320.17,South,0
+182,Customer_32,2/18/2024,2/29/2024,Furniture,25,Delivered,Standard,282.5,South,0.05
+183,Customer_38,9/16/2024,9/18/2024,Electronics,41,Cancelled,Standard,479.41,North,0.2
+184,Customer_31,8/16/2024,8/25/2024,Furniture,77,Pending,Express,329.04,North,0.2
+185,Customer_22,10/21/2024,10/26/2024,Clothing,8,Delivered,Express,38.98,East,0.05
+186,Customer_41,12/24/2024,12/27/2024,Books,9,Delivered,Same Day,24.6,West,0.15
+187,Customer_17,3/19/2024,3/23/2024,Furniture,80,Delivered,Standard,249.34,Central,0.05
+188,Customer_17,7/14/2024,7/24/2024,Clothing,4,Shipped,Express,37.01,West,0.1
+189,Customer_5,12/3/2024,12/15/2024,Books,31,Shipped,Express,24.29,South,0.1
+190,Customer_39,11/25/2024,12/9/2024,Clothing,28,Delivered,Express,38.47,South,0
+191,Customer_17,11/19/2024,11/22/2024,Electronics,22,Delivered,Standard,528.03,East,0.05
+192,Customer_15,5/3/2024,5/5/2024,Food,95,Shipped,Express,13.74,Central,0.05
+193,Customer_39,2/1/2024,2/9/2024,Books,57,Shipped,Standard,24.05,East,0
+194,Customer_20,11/10/2024,11/20/2024,Food,97,Delivered,Pickup,17.8,South,0.15
+195,Customer_50,3/21/2024,3/26/2024,Books,7,Delivered,Pickup,21.72,South,0.05
+196,Customer_9,2/11/2024,2/17/2024,Furniture,8,Delivered,Pickup,353.71,West,0.2
+197,Customer_29,6/5/2024,6/11/2024,Furniture,67,Delivered,Same Day,295.21,Central,0.05
+198,Customer_19,11/27/2024,12/1/2024,Food,87,Pending,Standard,16.14,West,0.15
+199,Customer_31,3/15/2024,3/26/2024,Books,29,Cancelled,Express,23.62,West,0.05
+200,Customer_36,8/30/2024,9/5/2024,Furniture,60,Delivered,Same Day,292.41,East,0.2
+201,Customer_40,3/5/2024,3/6/2024,Furniture,63,Cancelled,Same Day,252.7,West,0.1
+202,Customer_12,11/26/2024,11/30/2024,Food,94,Delivered,Pickup,14.61,North,0.1
+203,Customer_22,3/11/2024,3/21/2024,Books,46,Delivered,Standard,24,North,0.15
+204,Customer_17,3/31/2024,4/12/2024,Electronics,20,Shipped,Express,415.73,West,0.15
+205,Customer_11,11/25/2024,11/30/2024,Electronics,27,Delivered,Same Day,574.1,Central,0.2
+206,Customer_38,8/31/2024,9/5/2024,Books,59,Shipped,Express,27.46,West,0.1
+207,Customer_12,8/25/2024,8/26/2024,Electronics,97,Delivered,Pickup,444.31,South,0.1
+208,Customer_39,6/23/2024,7/3/2024,Furniture,42,Pending,Standard,333.49,South,0.1
+209,Customer_43,9/21/2024,9/24/2024,Electronics,87,Delivered,Express,415.28,Central,0.1
+210,Customer_25,8/12/2024,8/15/2024,Books,13,Cancelled,Express,26.33,East,0.2
+211,Customer_16,6/25/2024,6/26/2024,Furniture,7,Shipped,Same Day,303.67,North,0.15
+212,Customer_34,8/18/2024,8/19/2024,Electronics,46,Delivered,Express,438.78,North,0.15
+213,Customer_15,6/29/2024,7/3/2024,Furniture,4,Delivered,Standard,333.15,East,0
+214,Customer_22,1/9/2024,1/19/2024,Food,61,Delivered,Standard,14.11,West,0.15
+215,Customer_42,8/22/2024,8/30/2024,Clothing,77,Cancelled,Express,47.33,Central,0.1
+216,Customer_2,2/18/2024,2/27/2024,Books,30,Cancelled,Same Day,26.45,West,0.05
+217,Customer_8,9/8/2024,9/10/2024,Electronics,94,Delivered,Same Day,429.54,East,0.1
+218,Customer_16,11/13/2024,11/17/2024,Clothing,43,Delivered,Pickup,33.64,Central,0.1
+219,Customer_38,9/16/2024,9/25/2024,Electronics,69,Shipped,Standard,451.19,North,0.15
+220,Customer_29,12/7/2024,12/13/2024,Clothing,13,Shipped,Pickup,34.78,North,0
+221,Customer_15,10/6/2024,10/16/2024,Food,21,Cancelled,Same Day,12.92,West,0.2
+222,Customer_49,7/16/2024,7/25/2024,Clothing,100,Delivered,Pickup,44.15,South,0.05
+223,Customer_3,3/16/2024,3/18/2024,Electronics,45,Delivered,Same Day,415.07,East,0.05
+224,Customer_9,1/30/2024,2/11/2024,Food,44,Delivered,Pickup,17.71,East,0
+225,Customer_22,10/2/2024,10/3/2024,Clothing,58,Pending,Pickup,42.05,West,0.1
+226,Customer_21,9/15/2024,9/25/2024,Books,99,Delivered,Standard,24.64,East,0.2
+227,Customer_26,10/15/2024,10/18/2024,Food,40,Delivered,Standard,15.38,North,0.2
+228,Customer_28,8/31/2024,9/10/2024,Electronics,56,Delivered,Pickup,515.89,West,0.2
+229,Customer_9,10/17/2024,10/31/2024,Books,20,Shipped,Same Day,26.81,North,0.15
+230,Customer_3,1/9/2024,1/18/2024,Electronics,76,Cancelled,Same Day,576.41,Central,0.1
+231,Customer_43,4/19/2024,5/1/2024,Electronics,82,Pending,Standard,528.6,Central,0.05
+232,Customer_36,9/16/2024,9/18/2024,Books,4,Shipped,Standard,29.87,South,0.05
+233,Customer_46,2/8/2024,2/20/2024,Food,24,Delivered,Express,13.94,East,0.1
+234,Customer_41,2/6/2024,2/20/2024,Food,96,Delivered,Standard,17.83,Central,0.05
+235,Customer_35,2/12/2024,2/13/2024,Furniture,34,Shipped,Same Day,277.94,East,0.15
+236,Customer_41,7/1/2024,7/4/2024,Electronics,93,Shipped,Standard,487.95,North,0.2
+237,Customer_17,10/6/2024,10/14/2024,Books,83,Delivered,Express,24.69,West,0.05
+238,Customer_12,5/12/2024,5/26/2024,Electronics,95,Shipped,Pickup,526.28,Central,0.15
+239,Customer_27,5/23/2024,6/1/2024,Books,26,Delivered,Pickup,27.96,West,0.2
+240,Customer_18,4/16/2024,4/17/2024,Books,7,Delivered,Same Day,25.91,Central,0.1
+241,Customer_26,11/5/2024,11/13/2024,Food,6,Delivered,Express,14.11,East,0.1
+242,Customer_49,8/2/2024,8/8/2024,Food,39,Delivered,Pickup,12.45,Central,0.15
+243,Customer_7,6/7/2024,6/12/2024,Books,32,Delivered,Pickup,24.62,Central,0.15
+244,Customer_15,9/18/2024,9/23/2024,Books,70,Delivered,Standard,20.38,North,0.15
+245,Customer_22,4/25/2024,5/1/2024,Electronics,14,Shipped,Pickup,473.75,South,0.05
+246,Customer_46,2/13/2024,2/26/2024,Books,22,Delivered,Same Day,22.87,North,0.1
+247,Customer_39,7/15/2024,7/29/2024,Furniture,26,Shipped,Pickup,317.36,West,0.05
+248,Customer_25,2/2/2024,2/8/2024,Furniture,62,Delivered,Same Day,357.28,East,0.05
+249,Customer_27,10/10/2024,10/13/2024,Furniture,94,Delivered,Same Day,250.84,East,0.2
+250,Customer_45,12/23/2024,1/3/2025,Food,62,Shipped,Standard,15.56,Central,0.15
+251,Customer_1,6/28/2024,7/11/2024,Furniture,46,Delivered,Express,286.14,East,0.05
+252,Customer_11,11/29/2024,12/9/2024,Electronics,85,Delivered,Same Day,516.07,South,0.2
+253,Customer_5,1/7/2024,1/17/2024,Furniture,54,Pending,Pickup,354.51,South,0
+254,Customer_12,4/4/2024,4/9/2024,Food,50,Delivered,Pickup,16.43,Central,0.2
+255,Customer_35,8/1/2024,8/6/2024,Books,67,Cancelled,Same Day,20.41,Central,0
+256,Customer_15,11/9/2024,11/18/2024,Food,39,Cancelled,Pickup,17.45,West,0
+257,Customer_23,10/22/2024,10/28/2024,Furniture,79,Pending,Standard,308.6,Central,0
+258,Customer_15,12/27/2024,1/3/2025,Books,73,Shipped,Pickup,21.88,North,0
+259,Customer_34,12/5/2024,12/9/2024,Food,53,Shipped,Standard,15.63,North,0.15
+260,Customer_30,9/7/2024,9/19/2024,Food,87,Delivered,Same Day,15.01,North,0.05
+261,Customer_9,5/5/2024,5/7/2024,Clothing,77,Delivered,Same Day,47.32,South,0.05
+262,Customer_47,4/18/2024,4/29/2024,Clothing,81,Delivered,Same Day,39.21,East,0
+263,Customer_25,9/29/2024,10/5/2024,Food,24,Delivered,Standard,16.87,West,0.05
+264,Customer_30,1/24/2024,1/25/2024,Clothing,73,Shipped,Pickup,45.4,Central,0
+265,Customer_25,5/13/2024,5/25/2024,Electronics,91,Delivered,Standard,596.48,West,0.05
+266,Customer_32,8/12/2024,8/23/2024,Furniture,7,Delivered,Pickup,250.12,South,0.2
+267,Customer_10,10/15/2024,10/25/2024,Clothing,5,Delivered,Pickup,42.34,Central,0.15
+268,Customer_43,2/22/2024,3/4/2024,Food,60,Cancelled,Standard,12.23,Central,0.1
+269,Customer_42,5/22/2024,6/5/2024,Food,97,Delivered,Express,16.25,South,0
+270,Customer_37,9/17/2024,9/19/2024,Books,21,Pending,Same Day,29.91,East,0.2
+271,Customer_14,4/27/2024,5/1/2024,Books,48,Delivered,Pickup,25.24,Central,0.2
+272,Customer_2,10/19/2024,11/2/2024,Books,17,Shipped,Pickup,26.1,East,0.15
+273,Customer_34,5/26/2024,6/4/2024,Books,36,Delivered,Standard,23.64,South,0.15
+274,Customer_41,11/5/2024,11/18/2024,Electronics,16,Delivered,Express,583.59,West,0
+275,Customer_19,1/11/2024,1/14/2024,Furniture,29,Shipped,Same Day,286.49,Central,0
+276,Customer_7,11/19/2024,11/30/2024,Clothing,98,Shipped,Express,44.39,East,0.2
+277,Customer_11,12/27/2024,1/10/2025,Furniture,61,Shipped,Same Day,321.47,Central,0.2
+278,Customer_20,8/4/2024,8/14/2024,Books,97,Delivered,Pickup,20.52,East,0.15
+279,Customer_11,7/16/2024,7/29/2024,Books,99,Shipped,Pickup,26.31,Central,0
+280,Customer_24,9/10/2024,9/22/2024,Food,45,Delivered,Standard,14.01,Central,0
+281,Customer_17,11/26/2024,12/2/2024,Electronics,35,Delivered,Standard,465.94,Central,0.2
+282,Customer_9,4/26/2024,4/27/2024,Electronics,50,Shipped,Express,511.59,West,0.1
+283,Customer_22,6/2/2024,6/6/2024,Electronics,89,Delivered,Express,477.31,Central,0.2
+284,Customer_42,8/22/2024,9/5/2024,Books,46,Shipped,Same Day,22.52,East,0.1
+285,Customer_42,12/13/2024,12/23/2024,Clothing,2,Delivered,Standard,45.63,West,0
+286,Customer_40,4/28/2024,5/11/2024,Books,42,Delivered,Pickup,29.64,North,0.2
+287,Customer_12,9/12/2024,9/20/2024,Electronics,68,Delivered,Standard,520.54,East,0.15
+288,Customer_11,7/21/2024,7/27/2024,Books,85,Pending,Express,21.5,East,0.05
+289,Customer_32,4/5/2024,4/16/2024,Furniture,83,Delivered,Standard,249.78,North,0
+290,Customer_2,7/22/2024,7/23/2024,Clothing,64,Shipped,Pickup,42.62,West,0
+291,Customer_14,12/28/2024,12/31/2024,Electronics,37,Pending,Standard,583.35,Central,0.2
+292,Customer_11,1/24/2024,1/25/2024,Clothing,86,Delivered,Express,36.96,East,0.05
+293,Customer_17,7/22/2024,8/2/2024,Food,15,Delivered,Pickup,15.94,North,0.05
+294,Customer_34,1/10/2024,1/18/2024,Books,57,Shipped,Same Day,26.62,Central,0.05
+295,Customer_31,2/20/2024,2/25/2024,Clothing,53,Delivered,Same Day,34.06,West,0.2
+296,Customer_35,5/26/2024,6/3/2024,Furniture,86,Delivered,Pickup,325.06,East,0.2
+297,Customer_7,2/19/2024,2/29/2024,Electronics,3,Delivered,Pickup,416.94,Central,0.1
+298,Customer_42,12/22/2024,1/1/2025,Furniture,70,Pending,Pickup,307.07,Central,0.1
+299,Customer_12,12/4/2024,12/11/2024,Food,83,Pending,Express,15.86,South,0.1
+300,Customer_28,4/12/2024,4/17/2024,Electronics,26,Delivered,Pickup,465.7,North,0.15
+301,Customer_7,4/1/2024,4/6/2024,Furniture,82,Delivered,Express,255.34,Central,0
+302,Customer_1,2/24/2024,3/9/2024,Furniture,72,Delivered,Pickup,324.34,West,0.1
+303,Customer_11,3/19/2024,4/2/2024,Electronics,95,Delivered,Express,589.42,South,0.15
+304,Customer_38,7/31/2024,8/5/2024,Books,75,Delivered,Express,29.97,Central,0.15
+305,Customer_32,1/20/2024,1/27/2024,Clothing,20,Shipped,Standard,46.6,Central,0.2
+306,Customer_3,5/31/2024,6/6/2024,Furniture,98,Shipped,Same Day,251.21,West,0.05
+307,Customer_18,4/16/2024,4/27/2024,Electronics,20,Delivered,Pickup,534.09,South,0.05
+308,Customer_19,6/3/2024,6/12/2024,Furniture,94,Delivered,Same Day,301.02,South,0.1
+309,Customer_45,11/30/2024,12/11/2024,Furniture,96,Delivered,Same Day,242.19,North,0
+310,Customer_3,6/1/2024,6/4/2024,Furniture,10,Delivered,Standard,277.06,Central,0
+311,Customer_15,1/3/2024,1/4/2024,Food,4,Delivered,Same Day,17.71,North,0
+312,Customer_17,2/4/2024,2/16/2024,Clothing,24,Shipped,Same Day,37.47,South,0.15
+313,Customer_20,12/10/2024,12/16/2024,Food,26,Shipped,Pickup,16.6,North,0.15
+314,Customer_11,2/10/2024,2/24/2024,Clothing,38,Shipped,Express,35.07,West,0.15
+315,Customer_8,6/13/2024,6/26/2024,Clothing,75,Delivered,Pickup,48,East,0.2
+316,Customer_8,11/19/2024,11/22/2024,Food,4,Delivered,Pickup,12.93,West,0.15
+317,Customer_27,8/9/2024,8/15/2024,Books,77,Delivered,Same Day,22.96,South,0
+318,Customer_50,9/14/2024,9/15/2024,Books,33,Delivered,Same Day,27.88,West,0
+319,Customer_11,6/3/2024,6/14/2024,Food,18,Shipped,Pickup,15.05,South,0.05
+320,Customer_1,5/26/2024,6/6/2024,Furniture,43,Delivered,Pickup,304.77,West,0
+321,Customer_1,11/25/2024,11/27/2024,Food,90,Delivered,Same Day,16.43,Central,0.15
+322,Customer_17,3/13/2024,3/16/2024,Clothing,35,Cancelled,Express,40.42,Central,0.15
+323,Customer_40,7/31/2024,8/9/2024,Books,26,Delivered,Express,26.62,West,0.1
+324,Customer_45,4/18/2024,4/22/2024,Books,4,Delivered,Pickup,28.76,North,0.2
+325,Customer_41,5/13/2024,5/22/2024,Food,59,Pending,Express,15.71,South,0
+326,Customer_5,8/21/2024,8/25/2024,Furniture,79,Delivered,Pickup,311.67,Central,0.2
+327,Customer_1,11/28/2024,12/6/2024,Clothing,15,Delivered,Standard,34.47,South,0
+328,Customer_49,9/5/2024,9/17/2024,Furniture,91,Delivered,Same Day,261.7,Central,0.05
+329,Customer_7,10/16/2024,10/25/2024,Electronics,3,Delivered,Pickup,538.57,East,0.05
+330,Customer_31,9/13/2024,9/18/2024,Electronics,30,Delivered,Pickup,524.95,West,0.2
+331,Customer_4,11/30/2024,12/3/2024,Clothing,97,Delivered,Pickup,46.44,Central,0.15
+332,Customer_10,4/30/2024,5/10/2024,Food,32,Shipped,Express,16.33,West,0.1
+333,Customer_7,5/20/2024,5/31/2024,Books,72,Delivered,Pickup,20.44,East,0
+334,Customer_50,2/10/2024,2/13/2024,Food,94,Shipped,Standard,14.19,South,0
+335,Customer_48,6/11/2024,6/15/2024,Books,65,Delivered,Express,27.2,West,0.1
+336,Customer_20,11/16/2024,11/21/2024,Electronics,91,Delivered,Same Day,593.92,Central,0.2
+337,Customer_14,8/9/2024,8/17/2024,Books,62,Shipped,Standard,26.11,East,0.2
+338,Customer_42,5/24/2024,5/31/2024,Clothing,69,Delivered,Pickup,44.04,Central,0
+339,Customer_31,4/29/2024,5/1/2024,Electronics,4,Delivered,Standard,556.76,East,0.05
+340,Customer_49,10/31/2024,11/4/2024,Clothing,48,Delivered,Pickup,35.74,East,0.1
+341,Customer_27,3/24/2024,3/25/2024,Electronics,25,Delivered,Standard,447.83,Central,0
+342,Customer_42,5/19/2024,5/22/2024,Food,1,Shipped,Express,17.79,West,0.05
+343,Customer_37,12/6/2024,12/13/2024,Clothing,40,Pending,Pickup,44.55,South,0.2
+344,Customer_7,7/4/2024,7/7/2024,Food,64,Shipped,Express,17.42,South,0.05
+345,Customer_26,2/22/2024,3/4/2024,Electronics,66,Delivered,Standard,438.8,East,0.15
+346,Customer_6,5/15/2024,5/29/2024,Food,80,Delivered,Pickup,16.07,Central,0
+347,Customer_13,9/15/2024,9/16/2024,Electronics,1,Cancelled,Same Day,514.08,East,0.1
+348,Customer_35,1/31/2024,2/14/2024,Food,65,Shipped,Same Day,14.64,South,0.05
+349,Customer_45,6/15/2024,6/23/2024,Food,35,Delivered,Pickup,16.62,East,0.2
+350,Customer_48,3/7/2024,3/13/2024,Food,7,Delivered,Standard,16.67,East,0.05
+351,Customer_22,3/20/2024,3/23/2024,Electronics,11,Cancelled,Same Day,500.58,South,0.2
+352,Customer_49,1/24/2024,2/7/2024,Food,68,Delivered,Pickup,14.51,West,0.15
+353,Customer_2,8/2/2024,8/10/2024,Food,10,Delivered,Same Day,12.97,East,0.2
+354,Customer_18,1/17/2024,1/27/2024,Furniture,28,Shipped,Pickup,263.96,West,0.1
+355,Customer_17,1/22/2024,1/24/2024,Electronics,13,Cancelled,Standard,520.93,East,0.15
+356,Customer_43,10/23/2024,11/1/2024,Books,56,Shipped,Standard,28.73,Central,0.05
+357,Customer_16,11/25/2024,11/27/2024,Furniture,37,Cancelled,Express,246.26,East,0
+358,Customer_48,6/24/2024,7/1/2024,Electronics,95,Shipped,Same Day,496.12,East,0.2
+359,Customer_40,5/18/2024,5/24/2024,Furniture,51,Shipped,Express,284.55,North,0.1
+360,Customer_27,3/30/2024,4/9/2024,Books,28,Delivered,Standard,29.34,Central,0
+361,Customer_27,1/31/2024,2/9/2024,Food,56,Delivered,Pickup,16.27,Central,0
+362,Customer_29,9/19/2024,9/30/2024,Electronics,95,Delivered,Standard,503.18,West,0.15
+363,Customer_49,9/26/2024,10/7/2024,Electronics,32,Delivered,Standard,424.94,West,0.05
+364,Customer_37,3/29/2024,4/6/2024,Electronics,79,Delivered,Pickup,416.78,East,0
+365,Customer_27,3/14/2024,3/19/2024,Clothing,13,Delivered,Express,34.56,South,0.1
+366,Customer_4,4/16/2024,4/17/2024,Clothing,68,Delivered,Same Day,39.19,East,0.2
+367,Customer_35,2/6/2024,2/18/2024,Clothing,59,Shipped,Standard,40.21,North,0.2
+368,Customer_33,4/16/2024,4/26/2024,Food,87,Delivered,Standard,16.99,East,0.2
+369,Customer_5,4/30/2024,5/14/2024,Clothing,72,Pending,Same Day,33.47,North,0.15
+370,Customer_1,4/5/2024,4/12/2024,Electronics,78,Delivered,Standard,582.1,East,0.1
+371,Customer_13,12/16/2024,12/17/2024,Books,24,Delivered,Same Day,28.17,West,0
+372,Customer_28,9/21/2024,10/1/2024,Furniture,88,Delivered,Same Day,346.16,East,0.1
+373,Customer_37,3/14/2024,3/28/2024,Electronics,68,Delivered,Same Day,586.09,West,0.15
+374,Customer_47,10/10/2024,10/24/2024,Electronics,90,Delivered,Pickup,482.98,South,0.15
+375,Customer_34,12/2/2024,12/10/2024,Electronics,32,Delivered,Express,479.29,South,0.05
+376,Customer_19,8/26/2024,9/6/2024,Books,12,Pending,Express,23.74,Central,0.1
+377,Customer_10,3/2/2024,3/16/2024,Books,47,Delivered,Pickup,23.86,East,0.2
+378,Customer_18,2/15/2024,2/29/2024,Clothing,39,Delivered,Express,33.31,Central,0.15
+379,Customer_12,2/20/2024,2/25/2024,Food,91,Delivered,Express,13.35,East,0.15
+380,Customer_31,5/14/2024,5/25/2024,Books,82,Delivered,Express,23.19,South,0.05
+381,Customer_27,2/15/2024,2/23/2024,Furniture,36,Delivered,Standard,251.89,North,0.2
+382,Customer_36,5/18/2024,5/31/2024,Food,39,Delivered,Pickup,16.29,Central,0.15
+383,Customer_13,10/17/2024,10/29/2024,Clothing,72,Delivered,Express,37.36,Central,0
+384,Customer_32,9/19/2024,10/1/2024,Electronics,56,Delivered,Pickup,429.21,South,0.2
+385,Customer_7,7/24/2024,8/1/2024,Furniture,8,Delivered,Express,244.6,South,0.1
+386,Customer_24,11/22/2024,12/5/2024,Clothing,88,Shipped,Express,46.68,North,0.05
+387,Customer_17,2/27/2024,3/11/2024,Food,79,Shipped,Pickup,14.83,Central,0
+388,Customer_49,8/27/2024,9/7/2024,Clothing,73,Delivered,Same Day,45.3,South,0
+389,Customer_46,10/8/2024,10/12/2024,Clothing,55,Delivered,Pickup,44.14,South,0.1
+390,Customer_8,12/1/2024,12/9/2024,Food,67,Delivered,Same Day,14.81,North,0.05
+391,Customer_31,5/17/2024,5/28/2024,Food,42,Delivered,Standard,15.69,North,0.15
+392,Customer_34,7/15/2024,7/21/2024,Clothing,69,Delivered,Pickup,46.49,West,0.05
+393,Customer_16,3/31/2024,4/13/2024,Food,67,Delivered,Same Day,12.11,East,0.15
+394,Customer_22,7/18/2024,7/30/2024,Electronics,71,Delivered,Express,443.13,West,0.1
+395,Customer_24,4/29/2024,5/4/2024,Books,58,Pending,Standard,21.5,North,0.1
+396,Customer_19,6/18/2024,6/25/2024,Electronics,89,Shipped,Pickup,588.05,South,0
+397,Customer_15,3/28/2024,4/1/2024,Books,48,Delivered,Same Day,26.09,North,0
+398,Customer_32,6/18/2024,6/26/2024,Furniture,3,Delivered,Same Day,290.79,Central,0
+399,Customer_2,5/25/2024,5/29/2024,Books,73,Delivered,Pickup,27.76,South,0.1
+400,Customer_4,5/19/2024,5/30/2024,Books,90,Delivered,Same Day,22.38,West,0.15
+401,Customer_24,4/2/2024,4/15/2024,Food,10,Delivered,Pickup,12.73,West,0.1
+402,Customer_6,3/3/2024,3/15/2024,Furniture,51,Shipped,Same Day,268.61,West,0.1
+403,Customer_17,8/26/2024,8/29/2024,Electronics,38,Delivered,Express,527.79,South,0
+404,Customer_40,11/1/2024,11/7/2024,Furniture,63,Delivered,Pickup,314.74,East,0.05
+405,Customer_12,2/14/2024,2/27/2024,Books,6,Delivered,Pickup,20.63,East,0
+406,Customer_49,10/7/2024,10/20/2024,Furniture,21,Shipped,Standard,340.4,East,0.05
+407,Customer_42,8/2/2024,8/15/2024,Furniture,69,Pending,Express,299.98,North,0.15
+408,Customer_14,8/19/2024,9/1/2024,Clothing,46,Delivered,Pickup,40.58,North,0.15
+409,Customer_18,8/20/2024,8/24/2024,Food,68,Delivered,Same Day,15.79,Central,0.2
+410,Customer_19,12/22/2024,12/25/2024,Food,1,Delivered,Same Day,15.45,South,0.2
+411,Customer_35,3/5/2024,3/7/2024,Furniture,46,Delivered,Same Day,326.23,Central,0.2
+412,Customer_21,1/18/2024,1/23/2024,Electronics,98,Delivered,Standard,458.25,North,0.15
+413,Customer_8,11/2/2024,11/4/2024,Electronics,24,Delivered,Pickup,400.31,South,0
+414,Customer_22,4/30/2024,5/4/2024,Electronics,40,Shipped,Same Day,470.56,West,0
+415,Customer_45,4/5/2024,4/14/2024,Books,87,Shipped,Standard,25.71,South,0
+416,Customer_12,10/16/2024,10/24/2024,Clothing,60,Pending,Standard,35,North,0.1
+417,Customer_24,3/9/2024,3/19/2024,Books,96,Shipped,Pickup,26.68,West,0.2
+418,Customer_2,1/10/2024,1/22/2024,Clothing,68,Delivered,Same Day,40.38,West,0
+419,Customer_47,7/15/2024,7/22/2024,Clothing,15,Delivered,Express,37.77,South,0.2
+420,Customer_8,5/30/2024,6/3/2024,Books,91,Pending,Same Day,29.53,East,0.2
+421,Customer_41,12/17/2024,12/23/2024,Furniture,51,Delivered,Express,305.29,North,0.1
+422,Customer_49,6/12/2024,6/17/2024,Food,83,Delivered,Express,16.72,North,0.15
+423,Customer_33,5/2/2024,5/11/2024,Books,69,Shipped,Same Day,25.08,East,0
+424,Customer_21,12/12/2024,12/26/2024,Food,66,Delivered,Express,12.12,Central,0.1
+425,Customer_29,1/18/2024,1/30/2024,Food,58,Delivered,Standard,17.24,Central,0.15
+426,Customer_18,10/9/2024,10/12/2024,Clothing,40,Shipped,Standard,32.7,North,0.15
+427,Customer_40,11/13/2024,11/17/2024,Clothing,58,Delivered,Same Day,38.19,East,0
+428,Customer_5,11/12/2024,11/20/2024,Books,40,Pending,Pickup,23.73,East,0.2
+429,Customer_30,8/28/2024,9/6/2024,Books,98,Delivered,Standard,27.47,West,0.05
+430,Customer_33,2/24/2024,3/9/2024,Food,34,Delivered,Same Day,14.14,Central,0.2
+431,Customer_16,7/9/2024,7/12/2024,Food,4,Shipped,Express,12.41,Central,0.2
+432,Customer_28,5/11/2024,5/16/2024,Books,27,Delivered,Standard,22.41,West,0.05
+433,Customer_36,3/8/2024,3/17/2024,Books,14,Shipped,Same Day,26.57,South,0.15
+434,Customer_12,6/28/2024,7/1/2024,Food,19,Cancelled,Same Day,12.62,Central,0.05
+435,Customer_43,1/30/2024,2/4/2024,Furniture,5,Delivered,Pickup,309.83,West,0.05
+436,Customer_6,6/17/2024,6/27/2024,Books,84,Pending,Express,27.57,East,0.1
+437,Customer_5,12/16/2024,12/23/2024,Electronics,69,Shipped,Express,426.68,South,0.1
+438,Customer_15,6/29/2024,7/13/2024,Books,47,Delivered,Express,23.52,North,0.1
+439,Customer_39,2/29/2024,3/6/2024,Clothing,79,Delivered,Same Day,37.42,East,0.15
+440,Customer_24,8/12/2024,8/14/2024,Clothing,88,Delivered,Same Day,42.28,South,0.05
+441,Customer_30,1/5/2024,1/9/2024,Food,32,Delivered,Express,16.98,West,0
+442,Customer_1,3/26/2024,4/9/2024,Electronics,11,Cancelled,Same Day,536.94,East,0.05
+443,Customer_35,8/1/2024,8/4/2024,Books,72,Delivered,Pickup,29.81,South,0.15
+444,Customer_46,2/24/2024,2/27/2024,Electronics,64,Cancelled,Same Day,495.71,North,0.1
+445,Customer_49,11/1/2024,11/7/2024,Electronics,46,Delivered,Same Day,436.46,East,0.15
+446,Customer_44,2/19/2024,2/26/2024,Electronics,93,Delivered,Standard,426.97,East,0.1
+447,Customer_5,1/20/2024,1/29/2024,Clothing,24,Delivered,Pickup,43.46,Central,0.15
+448,Customer_23,5/11/2024,5/25/2024,Clothing,71,Delivered,Standard,47.1,South,0
+449,Customer_17,3/9/2024,3/16/2024,Books,39,Delivered,Express,20.37,South,0.1
+450,Customer_19,8/12/2024,8/13/2024,Books,99,Delivered,Express,22.02,Central,0.1
+451,Customer_1,2/29/2024,3/1/2024,Books,54,Delivered,Pickup,27.91,West,0.05
+452,Customer_34,12/27/2024,1/8/2025,Furniture,54,Delivered,Same Day,346.29,West,0.15
+453,Customer_8,3/23/2024,3/24/2024,Books,95,Delivered,Standard,23.16,Central,0.2
+454,Customer_12,6/14/2024,6/22/2024,Furniture,89,Shipped,Pickup,277.21,East,0.2
+455,Customer_12,8/7/2024,8/14/2024,Books,34,Shipped,Standard,23.98,North,0.05
+456,Customer_2,9/26/2024,10/2/2024,Electronics,52,Delivered,Same Day,563.08,West,0.15
+457,Customer_8,1/6/2024,1/7/2024,Food,21,Delivered,Standard,14.84,North,0
+458,Customer_25,2/27/2024,3/6/2024,Electronics,59,Delivered,Pickup,407.32,South,0.05
+459,Customer_11,5/14/2024,5/16/2024,Food,46,Delivered,Same Day,15.88,South,0.1
+460,Customer_46,11/24/2024,12/3/2024,Books,52,Shipped,Same Day,22.86,West,0
+461,Customer_24,12/23/2024,12/28/2024,Clothing,57,Pending,Pickup,45.79,East,0.15
+462,Customer_10,5/23/2024,5/27/2024,Food,93,Shipped,Same Day,12.29,South,0.1
+463,Customer_11,9/4/2024,9/9/2024,Electronics,62,Shipped,Standard,531.15,North,0.2
+464,Customer_8,12/23/2024,1/2/2025,Books,49,Delivered,Express,22.73,East,0.15
+465,Customer_37,1/16/2024,1/24/2024,Clothing,37,Delivered,Pickup,44.79,West,0.1
+466,Customer_33,7/30/2024,8/2/2024,Clothing,64,Shipped,Standard,38.99,South,0.15
+467,Customer_6,10/26/2024,11/5/2024,Books,18,Shipped,Same Day,24,West,0.1
+468,Customer_35,3/25/2024,3/31/2024,Furniture,43,Delivered,Express,292.77,East,0.15
+469,Customer_10,7/5/2024,7/18/2024,Books,98,Delivered,Standard,29.56,East,0.2
+470,Customer_11,10/23/2024,10/31/2024,Furniture,4,Pending,Pickup,280.68,East,0.05
+471,Customer_2,10/14/2024,10/24/2024,Food,12,Delivered,Same Day,13.12,Central,0.1
+472,Customer_40,3/22/2024,3/26/2024,Books,14,Delivered,Pickup,26.92,Central,0.1
+473,Customer_49,3/6/2024,3/20/2024,Food,85,Delivered,Standard,14.2,North,0.2
+474,Customer_6,10/5/2024,10/15/2024,Electronics,79,Shipped,Express,559.46,East,0.05
+475,Customer_3,2/21/2024,2/26/2024,Food,32,Delivered,Standard,13.6,East,0.15
+476,Customer_36,11/8/2024,11/21/2024,Furniture,10,Delivered,Standard,249.91,South,0.1
+477,Customer_8,5/12/2024,5/26/2024,Food,57,Delivered,Same Day,14.55,North,0.05
+478,Customer_24,7/21/2024,7/26/2024,Furniture,48,Delivered,Pickup,291.67,North,0.15
+479,Customer_6,10/17/2024,10/20/2024,Books,24,Delivered,Standard,29.95,West,0.1
+480,Customer_8,9/3/2024,9/4/2024,Furniture,76,Delivered,Standard,261.65,East,0.1
+481,Customer_15,11/25/2024,12/2/2024,Books,53,Delivered,Express,22.94,South,0.15
+482,Customer_12,5/15/2024,5/19/2024,Electronics,18,Pending,Express,420.52,West,0.2
+483,Customer_5,7/20/2024,7/24/2024,Furniture,92,Delivered,Pickup,279.35,Central,0.05
+484,Customer_47,1/2/2024,1/14/2024,Books,25,Delivered,Pickup,22.96,East,0.1
+485,Customer_10,9/3/2024,9/12/2024,Books,52,Delivered,Same Day,24.46,North,0.15
+486,Customer_36,8/28/2024,9/2/2024,Furniture,62,Cancelled,Pickup,326.12,East,0.1
+487,Customer_46,12/9/2024,12/17/2024,Clothing,16,Delivered,Express,34.67,East,0.15
+488,Customer_18,3/20/2024,3/24/2024,Electronics,40,Delivered,Pickup,488.78,Central,0.1
+489,Customer_46,3/3/2024,3/8/2024,Electronics,92,Delivered,Standard,489.43,South,0
+490,Customer_5,1/4/2024,1/9/2024,Books,70,Delivered,Pickup,27.27,South,0.2
+491,Customer_13,4/12/2024,4/19/2024,Books,35,Shipped,Pickup,29.12,South,0.05
+492,Customer_6,5/22/2024,5/27/2024,Furniture,53,Shipped,Same Day,313.78,West,0.2
+493,Customer_16,10/2/2024,10/4/2024,Books,33,Delivered,Standard,24.35,South,0.2
+494,Customer_45,4/23/2024,5/6/2024,Clothing,20,Pending,Same Day,42.23,West,0.05
+495,Customer_21,9/17/2024,10/1/2024,Clothing,44,Delivered,Express,44.66,Central,0.2
+496,Customer_32,4/8/2024,4/22/2024,Clothing,40,Delivered,Pickup,32.92,East,0
+497,Customer_11,11/29/2024,12/9/2024,Clothing,36,Delivered,Pickup,42.74,West,0.15
+498,Customer_41,11/25/2024,12/6/2024,Electronics,45,Shipped,Express,481.24,Central,0.05
+499,Customer_49,6/19/2024,6/22/2024,Clothing,60,Delivered,Same Day,40.21,West,0.15
+500,Customer_29,10/28/2024,10/29/2024,Food,9,Shipped,Standard,16.5,Central,0.1
