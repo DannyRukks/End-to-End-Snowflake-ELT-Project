@@ -102,50 +102,45 @@ The Gold layer transforms transactional data into a Star Schema optimized for re
 Contains unique customers.
 
 Column
-Customer ID
-Customer Name
-ETL Timestamp
+- Customer ID
+- Customer Name
+- ETL Timestamp
 
 #### DIM_ITEM
-Contains unique products/items.
+Contains unique items.
 
 Column
-Item ID
-Item Type
-ETL Timestamp
+- Item ID
+- Item Type
+- ETL Timestamp
 
 #### DIM_REGION
 Contains unique regions.
 
 Column
-Region ID
-Region
-ETL Timestamp
+- Region ID
+- Region
+- ETL Timestamp
 
 #### DIM_DATE
 Contains calendar dates for reporting.
 
 Attributes include:
-Year
-Quarter
-Month
-Month Name
+- Year
+- Quarter
+- Month
+- Month Name
 
 #### Fact Table
 #### FACT_ORDERS
 Stores transactional measures.
 
 Measures include:
-Quantity
-Unit Price
-Discount
-Sales Amount
-Delivery Days
-
-##### Foreign Keys
-Customer ID
-Item ID
-Region ID
+- Quantity
+- Unit Price
+- Discount
+- Sales Amount
+- Delivery Days
 
 #### Incremental Processing
 The project uses Snowflake Streams to capture only newly inserted or changed records.
