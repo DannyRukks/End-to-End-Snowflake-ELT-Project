@@ -11,8 +11,8 @@ This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate sc
 ### Project Architecture
 ![Snowflake ELT Architecture](architecture/Snowflake_Architecture.png)
 
-### Technology
-| Component | Technology |
+### Technology Stack
+| Technology | Purpose |
 |-----------|------------|
 | Snowflake |	Cloud Data Warehouse |
 | Amazon S3	| Source Data Storage |
