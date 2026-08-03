@@ -163,6 +163,7 @@ The SYSTEM$STREAM_HAS_DATA() function ensures downstream tasks run only when new
 
 ### Power BI Dashboard
 The reporting layer connects directly to the Gold schema.
+![Snowflake ELT Architecture](dashboard/dashboard.jpg)
 
 
 
