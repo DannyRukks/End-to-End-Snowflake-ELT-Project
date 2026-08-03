@@ -24,3 +24,18 @@ This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate sc
 | External Stage | Access S3 Files |
 | Storage Integration |	Secure AWS Connection |
 | Power BI	| Reporting & Visualization |
+
+### Dataset
+The source dataset consists of customer order transactions stored as CSV files in Amazon S3.
+- Fields
+- Order ID
+- Customer Name
+- Order Date
+- Delivery Date
+- Item Type
+- Quantity
+- Order Status
+- Shipping Method
+- Unit Price
+- Region
+- Discount
