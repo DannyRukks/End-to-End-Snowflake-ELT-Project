@@ -39,3 +39,16 @@ The source dataset consists of customer order transactions stored as CSV files i
 - Unit Price
 - Region
 - Discount
+
+Additional audit columns are added during ingestion:
+
+- Source File Name
+- Load Timestamp
+
+### Project Objectives
+- Build a complete ELT pipeline in Snowflake.
+- Implement Medallion Architecture.
+- Demonstrate incremental processing using Streams.
+- Automate workflows using Snowflake Tasks.
+- Build a dimensional model for analytics.
+- Create an interactive Power BI dashboard.
