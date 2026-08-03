@@ -14,3 +14,13 @@ This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate sc
 ### Technology
 | Component | Technology |
 |-----------|------------|
+| Snowflake |	Cloud Data Warehouse |
+| Amazon S3	| Source Data Storage |
+| SQL	      | Data Transformation |
+| Streams	  | Incremental Data Processing |
+| Tasks	    | Workflow Orchestration |
+| Stored Procedures	| Business Logic |
+| COPY INTO	| Batch Data Ingestion |
+| External Stage | Access S3 Files |
+| Storage Integration |	Secure AWS Connection |
+| Power BI	| Reporting & Visualization |
