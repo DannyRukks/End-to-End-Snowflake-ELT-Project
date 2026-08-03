@@ -9,4 +9,5 @@ The pipeline follows the Medallion Architecture (Bronze → Silver → Gold), en
 This solution intentionally uses COPY INTO instead of Snowpipe to demonstrate scheduled batch ingestion and orchestration.
 
 ### Project Architecture
-![Snowflake ELT Architecture](architecture/Snowflake Architecture.png)
+![Snowflake ELT Architecture](End-to-End-Snowflake-ELT-Project/
+architecture/Snowflake Architecture.png)
